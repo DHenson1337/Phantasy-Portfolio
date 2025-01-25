@@ -1,0 +1,36 @@
+:root {
+  /* Main theme colors */
+  --color-primary: #8b4513; /* Rich brown for wood textures */
+  --color-secondary: #c17817; /* Warm brass/gold */
+  --color-accent: #7b68ee; /* Magical purple */
+
+  /* Background colors */
+  --color-background: #1a1a1a; /* Dark background */
+  --color-background-alt: #2a2a2a; /* Lighter background for contrast */
+
+  /* Text colors */
+  --color-text: #e8e6d9; /* Aged parchment white */
+  --color-text-muted: #9b9b9b; /* Subdued text */
+
+  /* Interactive elements */
+  --color-hover: #9e6938; /* Hover state for wooden elements */
+  --color-active: #d4af37; /* Active/selected state (gold) */
+
+  /* UI Component colors */
+  --color-border: #463e33; /* Dark wood trim */
+  --color-shadow: rgba(0, 0, 0, 0.5); /* Deep shadows */
+
+  /* Special effect colors */
+  --color-magic: #7b68ee; /* Magical effects */
+  --color-fire: #ff4500; /* Fire effects */
+  --color-nature: #228b22; /* Nature elements */
+
+  /* Gradients */
+  --gradient-parchment: linear-gradient(to bottom, #e8e6d9, #d3cfc4);
+
+  --gradient-wood: linear-gradient(to bottom, var(--color-primary), #5c2e0d);
+
+  /* Overlay colors */
+  --color-overlay: rgba(0, 0, 0, 0.7);
+  --color-overlay-light: rgba(0, 0, 0, 0.3);
+}

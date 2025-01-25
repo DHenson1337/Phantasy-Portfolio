@@ -1,0 +1,10 @@
+/* src/index.css */
+/* Base Styles */
+@import "./styles/base/reset.css";
+@import "./styles/base/fonts.css";
+
+/* Theme Styles */
+@import "./styles/themes/colors.css";
+
+/* Component Styles */
+@import "./styles/components/layout.css";
